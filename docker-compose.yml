@@ -12,3 +12,7 @@ services:
         build:
             context: .
             dockerfile: devtools/Dockerfile.arch
+    manjaro:
+        build:
+            context: .
+            dockerfile: devtools/Dockerfile.manjaro
